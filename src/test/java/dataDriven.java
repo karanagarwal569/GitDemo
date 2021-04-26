@@ -16,6 +16,8 @@ public class dataDriven {
 		// TODO Auto-generated constructor stub
 	}
 	//scanning first row
+//scanning first row
+//scanning first row
 	//then scan complete column with name
 	public static ArrayList<String> getdata(String testcases) throws IOException {
 		// TODO Auto-generated method stub
