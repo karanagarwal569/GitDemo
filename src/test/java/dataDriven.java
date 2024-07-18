@@ -9,8 +9,20 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.util.NumberToTextConverter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.*;
 
 public class dataDriven {
+
+	@Test
+	public void testData throws IOException
+	{
+		ArrayList<String> ab=dataDriven.getdata("purchase");
+		System.out.println(ab.size());
+		for(String a:ab)
+		{
+			System.out.println(a);		
+		}
+	}
 
 	public dataDriven() {
 		// TODO Auto-generated constructor stub
